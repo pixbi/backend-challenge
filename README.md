@@ -51,15 +51,15 @@ Take the following example server:
 
 Your micro-framework will implement at least 3 methods:
 
-* createServer()
-* use()
-* listen()
+* `createServer()`
+* `use(handler)`
+* `listen(port, callback)`
 
 The above server will run as you would expect:
 
-  `GET /hello` would return `abchello`
-  `GET /goodbye` would return `acgoodbye`
-  `GET /` would return `acend`
+* `GET /hello` would return `abchello`
+* `GET /goodbye` would return `acgoodbye`
+* `GET /` would return `acend`
 
 Do you have what it takes?
 
